@@ -10,7 +10,7 @@ body {
     color: rgb(141, 141, 57);
 }
 
-section {
+.mantain {
     display: flex;
     margin-bottom: 100px;
 
@@ -59,3 +59,41 @@ section {
 }
 
 /* experience part of now */
+
+.new-experence {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.new-experence h2 {
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.experence {
+    box-shadow: 10px 8px 30px rgb(50, 34, 34);
+    width: 40%;
+    margin-left: 80px;
+    padding: 10px;
+    border-left: 8px solid rgb(100, 42, 171);
+    height: 400px;
+
+
+}
+
+.border {
+    border-left: 8px solid rgb(208, 129, 17);
+}
+
+.experence h2 {
+    font-size: 40px;
+}
+
+.experence p {
+    font-size: 18px;
+}
+
+/* footer------------ */
+footer {
+    text-align: center;
+}
